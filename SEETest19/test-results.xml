@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.407" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-09T12:15:48" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="sample scenario" timestamp="2019-07-09T12:15:48" tests="1" file="/Users/dimitartodorov/SSD/SEETest-2019-OSSMobileAutomation/SEETest19/e2e/tests.e2e.js" failures="0" time="8.407">
+    <testcase name="sample scenario should find an element by text" time="8.407" classname="should find an element by text">
+    </testcase>
+  </testsuite>
+</testsuites>
