@@ -43,6 +43,18 @@
         "fullReset": false,
         "app": ""
     },
+    "android24.sauceLab": {
+        "platformName": "Android",
+        "platformVersion": "7.0",
+        "deviceName": "Android GoogleAPI Emulator",
+        "lt": 60000,
+        "newCommandTimeout": 720,
+        "noReset": true,
+        "fullReset": false,
+        "app": "",
+        "idleTimeout": 120,
+        "automationName": "Appium"
+    },
     "android25": {
         "platformName": "Android",
         "platformVersion": "7.1",
@@ -94,9 +106,11 @@
         "avd": "Android GoogleAPI Emulator",
         "lt": 60000,
         "newCommandTimeout": 720,
-        "noReset": false,
+        "noReset": true,
         "fullReset": false,
-        "app": ""
+        "app": "",
+        "idleTimeout": 120,
+        "automationName": "Appium"
     },
     "sim.iPhone7": {
         "platformName": "iOS",
@@ -118,9 +132,13 @@
         "platformName": "iOS",
         "platformVersion": "12.0",
         "deviceName": "iPhone X",
-        "noReset": false,
+        "appiumVersion": "1.9.1",
+        "app": "",
+        "noReset": true,
         "fullReset": false,
-        "app": ""
+        "density": 3,
+        "offsetPixels": 87,
+        "idleTimeout": 120
     },
     "sim.iPhoneXS": {
         "platformName": "ios",
