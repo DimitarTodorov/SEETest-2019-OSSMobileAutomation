@@ -38,7 +38,7 @@ matrix:
         - "curl -u $SAUCE_USER:$SAUCE_KEY -X POST -H 'Content-Type: application/octet-stream' $SAUCE_STORAGE/$ANDROID_PACKAGE?overwrite=true --data-binary @$ANDROID_PACKAGE_FOLDER/$ANDROID_PACKAGE"
     - stage: "Execute UI Tests in SauceLab"
       env:
-        - Type="Android 28 Tests"
+        - Type="Android 24 Tests"
       language: node_js
       os: linux
       node_js: "10"
