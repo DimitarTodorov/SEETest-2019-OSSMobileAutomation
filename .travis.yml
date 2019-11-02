@@ -3,10 +3,10 @@ branches:
     - master
 env:
   global:
-    - ANDROID_PACKAGE='seetest-19.apk'
+    - ANDROID_PACKAGE='seetest-$TRAVIS_BUILD_ID.apk'
     - ANDROID_PACKAGE_FOLDER=$TRAVIS_BUILD_DIR/SEETest19/outputs
     - SAUCE_STORAGE="https://saucelabs.com/rest/v1/storage/$SAUCE_USER"
-    - IOS_PACKAGE='seetest-19.zip'
+    - IOS_PACKAGE='seetest-$TRAVIS_BUILD_ID.zip'
     - IOS_PACKAGE_FOLDER=$TRAVIS_BUILD_DIR/SEETest19/outputs
 
 matrix:
